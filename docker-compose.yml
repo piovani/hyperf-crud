@@ -5,9 +5,10 @@ services:
     container_name: hyperf-crud
     platform: linux/amd64
     image: hyperf/hyperf:8.3-alpine-v3.19-swoole-slim
+    working_dir: /data/project
     volumes:
       - ./:/data/project
-    command: ["tail","-f","/dev/null"]
-    working_dir: /data/project
     ports:
-      - 9501:9501
+      - 8080:9501
+    # command: ["tail","-f","/dev/null"]
+    command: ["php","bin/hyperf.php","start"]
