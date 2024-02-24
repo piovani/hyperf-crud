@@ -21,6 +21,15 @@ docker-compose up -d
 
 This is a skeleton application using the Hyperf framework. This application is meant to be used as a starting place for those looking to get their feet wet with Hyperf Framework.
 
+# TO DO
+[ ] - Criar Endpoint de Lista de Estudantes
+[ ] - Criar Endpoint de Consulta de um Estudante
+[ ] - Criar Endpoint de Criar um novo Estudante
+[ ] - Criar Endpoint de Atualizar dados do Estudante
+[ ] - Criar Endpoint de Delete Estudante
+[ ] - Conexão como Banco de dados
+[ ] - Endpoints utilizar o banco de dados
+
 # Requirements
 
 Hyperf has some requirements for the system environment, it can only run under Linux and Mac environment, but due to the development of Docker virtualization technology, Docker for Windows can also be used as the running environment under Windows.
