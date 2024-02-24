@@ -10,5 +10,4 @@ services:
       - ./:/data/project
     ports:
       - 8080:9501
-    # command: ["tail","-f","/dev/null"]
-    command: ["php","bin/hyperf.php","start"]
+    command: ["php","bin/hyperf.php","server:watch"]

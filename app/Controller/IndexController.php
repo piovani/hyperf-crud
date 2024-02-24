@@ -20,6 +20,7 @@ class IndexController extends AbstractController
         $method = $this->request->getMethod();
 
         return [
+            "Ola Mundo2" => true,
             'method' => $method,
             'message' => "Hello {$user}.",
         ];
