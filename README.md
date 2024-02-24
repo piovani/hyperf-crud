@@ -1,3 +1,22 @@
+## Commands Executed
+1.
+```
+docker run --name hyperf \
+-p 9501:9501 -it \
+--privileged -u root \
+--entrypoint /bin/sh \
+--platform=linux/amd64 \
+hyperf/hyperf:8.3-alpine-v3.19-swoole-slim
+```
+
+# How Run the Project
+1. 
+```
+docker-compose up -d
+```
+
+2. 
+
 # Introduction
 
 This is a skeleton application using the Hyperf framework. This application is meant to be used as a starting place for those looking to get their feet wet with Hyperf Framework.
